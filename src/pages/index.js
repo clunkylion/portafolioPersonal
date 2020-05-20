@@ -1,3 +1,8 @@
-import React from "react"
+import React from "react";
+import Header from '../pages/components/header.js';
+import Repos from '../pages/components/repositories.js'
 
-export default () => <div>Hello world!</div>
+export default () => <div>
+    <Header />
+    <Repos />
+</div>
