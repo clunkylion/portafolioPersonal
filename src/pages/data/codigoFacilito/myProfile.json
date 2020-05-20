@@ -1,0 +1,324 @@
+{
+  "data": {
+    "email": "cote99salamanca@gmail.com",
+    "username": "cote99salamanca0",
+    "certificates": [
+      {
+        "score": 10,
+        "code": "8bab627a-b820-44c7-bdc0-01a9578f794c",
+        "title": "Curso Profesional de Git"
+      },
+      {
+        "score": 10,
+        "code": "99435fec-d91d-4ab5-b0c1-8301aea6bffa",
+        "title": "Curso Profesional de JavaScript"
+      }
+    ],
+    "articles": [],
+    "courses": [
+      {
+        "title": "Curso Gratuito de Bootstrap 4",
+        "progress": "11.0",
+        "url": "http://codigofacilito.com/courses/bootstrap"
+      },
+      {
+        "title": "Curso Profesional de Android",
+        "progress": "28.0",
+        "url": "http://codigofacilito.com/courses/android-profesional"
+      },
+      {
+        "title": "Mi primera página web",
+        "progress": "0.0",
+        "url": "http://codigofacilito.com/courses/crear-pagina-web"
+      },
+      {
+        "title": "Curso Profesional de Base de Datos",
+        "progress": "0.0",
+        "url": "http://codigofacilito.com/courses/base-datos-profesional"
+      },
+      {
+        "title": "Curso para crear tu primera página web Gratis",
+        "progress": "0.0",
+        "url": "http://codigofacilito.com/courses/primera_pagina"
+      },
+      {
+        "title": "Curso para desarrollar Aplicaciones Web Progresivas",
+        "progress": "0.0",
+        "url": "http://codigofacilito.com/courses/aplicaciones-web-progresivas"
+      },
+      {
+        "title": "Curso a fondo de HTML5",
+        "progress": "15.0",
+        "url": "http://codigofacilito.com/courses/html5-2017"
+      },
+      {
+        "title": "Crea una galería de imágenes en Android",
+        "progress": "0.0",
+        "url": "http://codigofacilito.com/courses/galeria-android"
+      },
+      {
+        "title": "Material Design a fondo",
+        "progress": "0.0",
+        "url": "http://codigofacilito.com/courses/material-design-afondo"
+      },
+      {
+        "title": "Curso para consumir servicios web con Android",
+        "progress": "0.0",
+        "url": "http://codigofacilito.com/courses/android-webservices"
+      },
+      {
+        "title": "Curso de Android Manejo de Datos",
+        "progress": "0.0",
+        "url": "http://codigofacilito.com/courses/android-manejo-de-datos"
+      },
+      {
+        "title": "Curso de Android con Firebase",
+        "progress": "0.0",
+        "url": "http://codigofacilito.com/courses/android-firebase"
+      },
+      {
+        "title": "Curso de ads, ventas y distribución en Android",
+        "progress": "0.0",
+        "url": "http://codigofacilito.com/courses/android-monetizacion"
+      },
+      {
+        "title": "Curso profesional de Kotlin",
+        "progress": "1.0",
+        "url": "http://codigofacilito.com/courses/kotlin-profesional"
+      },
+      {
+        "title": "Curso gratis de jQuery",
+        "progress": "0.0",
+        "url": "http://codigofacilito.com/courses/jquery"
+      },
+      {
+        "title": "Curso de javaScript Gratis",
+        "progress": "0.0",
+        "url": "http://codigofacilito.com/courses/javascript"
+      },
+      {
+        "title": "Curso del lenguaje Dart",
+        "progress": "56.0",
+        "url": "http://codigofacilito.com/courses/dart"
+      },
+      {
+        "title": "Curso de introducción a Flutter",
+        "progress": "0.0",
+        "url": "http://codigofacilito.com/courses/introduccion-flutter"
+      },
+      {
+        "title": "Curso intermedio de Flutter",
+        "progress": "0.0",
+        "url": "http://codigofacilito.com/courses/flutter-intermedio"
+      },
+      {
+        "title": "Curso de Flutter con Firebase",
+        "progress": "0.0",
+        "url": "http://codigofacilito.com/courses/flutter-crud-firebase"
+      },
+      {
+        "title": "Curso de AngularJS Gratis",
+        "progress": "0.0",
+        "url": "http://codigofacilito.com/courses/angularjs"
+      },
+      {
+        "title": "Desarrrolla una tienda en línea con Laravel y Vue",
+        "progress": "100.0",
+        "url": "http://codigofacilito.com/courses/laravel-tienda-en-linea"
+      },
+      {
+        "title": "Curso Profesional de Laravel",
+        "progress": "100.0",
+        "url": "http://codigofacilito.com/courses/laravel-profesional"
+      },
+      {
+        "title": "Conceptos intermedios de Android",
+        "progress": "0.0",
+        "url": "http://codigofacilito.com/courses/android-premium"
+      },
+      {
+        "title": "Desarrollo de Widgets para Android",
+        "progress": "0.0",
+        "url": "http://codigofacilito.com/courses/android-widgets"
+      },
+      {
+        "title": "Curso Profesional de JavaScript",
+        "progress": "100.0",
+        "url": "http://codigofacilito.com/courses/javascript-profesional"
+      },
+      {
+        "title": "Curso Profesional de JAVA",
+        "progress": "11.0",
+        "url": "http://codigofacilito.com/courses/java-profesional"
+      },
+      {
+        "title": "Curso Profesional de Python",
+        "progress": "15.0",
+        "url": "http://codigofacilito.com/courses/python-profesional"
+      },
+      {
+        "title": "Conexión a base de datos con Python",
+        "progress": "0.0",
+        "url": "http://codigofacilito.com/courses/python-base-datos"
+      },
+      {
+        "title": "Manipulación de imágenes con Python",
+        "progress": "0.0",
+        "url": "http://codigofacilito.com/courses/python-imagenes"
+      },
+      {
+        "title": "Curso de creación de bots",
+        "progress": "1.0",
+        "url": "http://codigofacilito.com/courses/bots"
+      },
+      {
+        "title": "Curso Profesional de Backend",
+        "progress": "28.0",
+        "url": "http://codigofacilito.com/courses/backend-profesional"
+      },
+      {
+        "title": "Curso de introducción a la programación",
+        "progress": "0.0",
+        "url": "http://codigofacilito.com/courses/introduccion"
+      },
+      {
+        "title": "Curso profesional de PHP",
+        "progress": "0.0",
+        "url": "http://codigofacilito.com/courses/php-profesional"
+      },
+      {
+        "title": "Curso profesional de C#",
+        "progress": "6.0",
+        "url": "http://codigofacilito.com/courses/csharp-profesional"
+      },
+      {
+        "title": "Curso de programación funcional en Java",
+        "progress": "9.0",
+        "url": "http://codigofacilito.com/courses/java-programacion-funcional"
+      },
+      {
+        "title": "Curso de Patrones de Diseño con JAVA",
+        "progress": "7.0",
+        "url": "http://codigofacilito.com/courses/patrones-diseno"
+      },
+      {
+        "title": "Curso Profesional de Git",
+        "progress": "100.0",
+        "url": "http://codigofacilito.com/courses/git-profesional"
+      },
+      {
+        "title": "Pruebas unitarias con PHP",
+        "progress": "0.0",
+        "url": "http://codigofacilito.com/courses/php-testing"
+      },
+      {
+        "title": "Curso Profesional de Vue",
+        "progress": "100.0",
+        "url": "http://codigofacilito.com/courses/vue"
+      },
+      {
+        "title": "Taller para consultar datos de una API con Vue",
+        "progress": "100.0",
+        "url": "http://codigofacilito.com/courses/rest-api-vue"
+      },
+      {
+        "title": "Creación de un proyecto con Vue",
+        "progress": "100.0",
+        "url": "http://codigofacilito.com/courses/vue-proyecto"
+      },
+      {
+        "title": "Taller de Vue con Firebase",
+        "progress": "100.0",
+        "url": "http://codigofacilito.com/courses/vue-firebase"
+      },
+      {
+        "title": "Taller de Apps Universales con Nuxt y Vue",
+        "progress": "100.0",
+        "url": "http://codigofacilito.com/courses/taller-nuxt-vue"
+      },
+      {
+        "title": "Curso de creación de videojuegos con Unity",
+        "progress": "28.0",
+        "url": "http://codigofacilito.com/courses/unity"
+      },
+      {
+        "title": "Curso de Desarrollo Tiendas en línea",
+        "progress": "0.0",
+        "url": "http://codigofacilito.com/courses/desarrollo-ecommerce"
+      },
+      {
+        "title": "Curso de desarrollo vídeo juegos 2d con Unity",
+        "progress": "2.0",
+        "url": "http://codigofacilito.com/courses/unity-2d"
+      },
+      {
+        "title": "Curso para consumir APIs con AJAX",
+        "progress": "0.0",
+        "url": "http://codigofacilito.com/courses/consumir-apis-javascript"
+      },
+      {
+        "title": "Autenticación de usuarios con Gatsby",
+        "progress": "0.0",
+        "url": "http://codigofacilito.com/courses/autenticación-usuarios-gatsby"
+      },
+      {
+        "title": "Curso de noSQL con MongoDB",
+        "progress": "0.0",
+        "url": "http://codigofacilito.com/courses/nosql-moongodb"
+      },
+      {
+        "title": "Crea un sitio personal con Gatsby",
+        "progress": "53.0",
+        "url": "http://codigofacilito.com/courses/sitio-persional-gatsby"
+      },
+      {
+        "title": "Curso de Fundamentos de React",
+        "progress": "100.0",
+        "url": "http://codigofacilito.com/courses/react-intro-gratis"
+      }
+    ],
+    "finished_courses": [
+      {
+        "title": "Desarrrolla una tienda en línea con Laravel y Vue",
+        "url": "http://codigofacilito.com/courses/laravel-tienda-en-linea"
+      },
+      {
+        "title": "Curso Profesional de Laravel",
+        "url": "http://codigofacilito.com/courses/laravel-profesional"
+      },
+      {
+        "title": "Curso Profesional de JavaScript",
+        "url": "http://codigofacilito.com/courses/javascript-profesional"
+      },
+      {
+        "title": "Curso Profesional de Git",
+        "url": "http://codigofacilito.com/courses/git-profesional"
+      },
+      {
+        "title": "Curso Profesional de Vue",
+        "url": "http://codigofacilito.com/courses/vue"
+      },
+      {
+        "title": "Taller para consultar datos de una API con Vue",
+        "url": "http://codigofacilito.com/courses/rest-api-vue"
+      },
+      {
+        "title": "Creación de un proyecto con Vue",
+        "url": "http://codigofacilito.com/courses/vue-proyecto"
+      },
+      {
+        "title": "Taller de Vue con Firebase",
+        "url": "http://codigofacilito.com/courses/vue-firebase"
+      },
+      {
+        "title": "Taller de Apps Universales con Nuxt y Vue",
+        "url": "http://codigofacilito.com/courses/taller-nuxt-vue"
+      },
+      {
+        "title": "Curso de Fundamentos de React",
+        "url": "http://codigofacilito.com/courses/react-intro-gratis"
+      }
+    ]
+  },
+  "errors": []
+}

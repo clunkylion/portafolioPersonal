@@ -3,7 +3,7 @@ import React from 'react';
 export default (props)=>(
     <li className="flex items-center">
         <div className="w-9/12 overflow-x-hidden">
-            <h4 className="text-blue-500 font-bold">
+            <h4 className="text-blue-700 font-bold">
                 {props.repo.name}
             </h4>
             <p className="text-sm overflow-y-hidden" style={{height: "1.5em"}}>
