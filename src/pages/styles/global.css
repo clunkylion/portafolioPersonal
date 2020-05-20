@@ -4,3 +4,17 @@
 
 @tailwind utilities;
 
+.btn{
+    @apply bg-green-500 text-white font-bold rounded py-2 px-4 border-b-4;
+}
+
+.repos-list{
+    columns: 3;
+    -moz-columns: 3;
+    column-rule: 1px solid;
+    @apply p-4;
+
+}
+.repos-list li{
+    break-inside: avoid-column;
+}
