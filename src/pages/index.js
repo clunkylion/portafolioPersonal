@@ -5,6 +5,7 @@ import CodigoFacilito from '../pages/components/codigoFacilito.js';
 import AboutMe from "../pages/components/aboutMe.js";
 
 export default () => <div>
+    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
     <Header />
     <Repos />
     <CodigoFacilito />

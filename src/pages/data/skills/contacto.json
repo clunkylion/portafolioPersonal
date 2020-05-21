@@ -1,0 +1,14 @@
+{
+    "title": "Contacto",
+    "slug": "contacto",
+    "descripcion": "No lo dudes ponte en contacto conmigo, estoy para ayudarte...",
+    "items": [
+        {
+            "name": "José Luis Cortés Molina",
+            "correo": "cote99salamanca@gmail.com",
+            "telefono": "+56 974834319",
+            "facebook": "https://www.facebook.com/joseluis.cortesmolina",
+            "instagram": "https://www.instagram.com/joche_pepe_99/"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "title": "¡Mis Habilidades!",
+    "slug": "habilidades",
+    "descripcion": "Experiencia Utilizando las siguientes tecnologías",
+    "items": [
+        {
+            "name": "Php"
+        },
+        {
+            "name": "Java"
+        },
+        {
+            "name": "Javascript"
+        },
+        {
+            "name": "Vue"
+        },
+        {
+            "name": "Laravel"
+        },
+        {
+            "name": "Bases de Datos (Mysql & Oracle)"
+        },
+        {
+            "name": "Aplicaciones Moviles"
+        },
+        {
+            "name": "Git"
+        },
+        {
+            "name": "Tiendas en Linea"
+        },
+        {
+            "name": "C#"
+        },
+        {
+            "name": "Dart & Flutter"
+        }
+    ]
+}
