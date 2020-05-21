@@ -1,40 +1,43 @@
 {
     "title": "¡Mis Habilidades!",
     "slug": "habilidades",
-    "descripcion": "Experiencia Utilizando las siguientes tecnologías",
+    "descripcion": "Poseo experiencia utilizando las siguientes tecnologías..",
     "items": [
         {
-            "name": "Php"
+            "name": "Php",
+            "desc": "Uno de mis lenguajes favoritos he realizado proyectos de todo tipo con está valiosa herramienta."
         },
         {
-            "name": "Java"
+            "name": "Java",
+            "desc": "Mi Primer lenguaje de programación, ideal para aplicaciones de escritorio y tambien para aplicaciones moviles."
         },
         {
-            "name": "Javascript"
+            "name": "Javascript",
+            "desc": "Sin dudas un lenguaje maravilloso con el que se pueden hacer muchas cosas...."
         },
         {
-            "name": "Vue"
+            "name": "Vue",
+            "desc": "Excelente framework, ideal para construir interfaces de usuario y aplicaciones de una sola página y modernas."
         },
         {
-            "name": "Laravel"
+            "name": "Laravel",
+            "desc": "Maravillosa herramienta para aprovechar al maximo PHP, he creado tiendas online con está herramienta."
         },
         {
-            "name": "Bases de Datos (Mysql & Oracle)"
+            "name": "Bases de Datos (Mysql & Oracle)",
+            "desc": ""
         },
         {
-            "name": "Aplicaciones Moviles"
+            "name": "Git",
+            "desc": "Una herramienta para viajar en el tiempo con los proyectos..."
         },
         {
-            "name": "Git"
+            "name": "C#",
+            "desc": "Un lenguaje muy similar a Java, poseo experiencia usando ASP & .NET"
         },
         {
-            "name": "Tiendas en Linea"
-        },
-        {
-            "name": "C#"
-        },
-        {
-            "name": "Dart & Flutter"
+            "name": "Dart & Flutter",
+            "desc": "Ideal para realizar aplicaciones moviles multiplatoforma, modernas y elegantes."
         }
     ]
 }

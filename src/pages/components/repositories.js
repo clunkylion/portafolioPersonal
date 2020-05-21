@@ -30,7 +30,7 @@ export default () => {
     return (
         <div className="max-w-4xl mx-auto mt-12">
             <header className="text-center">
-                <h2 className="text-3xl font-bold text-green-600 truncate">Mi Trabajo en GitHub!</h2>
+                <h2 className="text-3xl font-bold text-blue-700 truncate">Mi Trabajo en GitHub!</h2>
                 <p className="text-green-600">Colaboración y contribución de Código</p>
             </header>
             <ul className="repos-list my-3">

@@ -27,3 +27,7 @@ body{
     text-orientation: upright;
     @apply bg-green-200 text-blue-800 text-xs p-2 inline-block;
 }
+.contact_card{
+    width: 300px;
+    height: 250px;
+}
