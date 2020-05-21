@@ -9,7 +9,7 @@ export default () => {
     const [reposCount, setReposCount] = useState([]);
 
 
-    useEffect(async() => {
+    useEffect(() => {
         const data = sessionStorage.getItem("repos");
         let myRepos
         if (data) {

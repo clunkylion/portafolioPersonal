@@ -1,5 +1,5 @@
 import React from 'react'
-import { useStaticQuery, graphql, grap } from 'gatsby';
+import { useStaticQuery, graphql } from 'gatsby';
 
 export default () => {
     const data = useStaticQuery(graphql`{
@@ -32,7 +32,7 @@ export default () => {
                             titles.map(certificate =>(
                                     <div className="shadow p-8 bg-white mr-4 rounded flex-shrink-0" style={{width: "250px"}}> 
                                         <h4 className="font-bold text-blue-700">
-                                            <a href={certificate.url} target="_blank">{certificate.title}</a>
+                                            <a href={certificate.url} target="_blank" rel="noreferrer">{certificate.title}</a>
                                         </h4>
                                     </div>
                             ))
