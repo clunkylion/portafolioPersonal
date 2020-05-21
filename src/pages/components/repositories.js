@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import Repo from './repo.js';
+//import Repo from './repo.js';
 
 
 //componente DidMount
@@ -27,7 +27,7 @@ export default () => {
         }
         fetchRepos();
     },[]);
-    
+
     return (
         <div className="max-w-4xl mx-auto mt-12">
             <header className="text-center">
@@ -37,9 +37,26 @@ export default () => {
             <ul className="repos-list my-3">
                 {
                     repos.map((repo)=>{
-                        return <Repo repo={repo} key={repo.id} />
+                        return (
+                            <li className="flex items-center" key={repo.id}>
+                                <div className="w-9/12 overflow-x-hidden my-4">
+                                    <h4 className="text-blue-700 font-bold">
+                                        {repo.name}
+                                    </h4>
+                                    <p className="text-sm overflow-y-hidden text-green-600" style={{height: "1.5em"}}>
+                                        {repo.description}
+                                    </p>
+                                </div>
+                                <div className="flex-1 text-right">
+                                    <a  href={repo.html_url} className="text-blue-700" target="_blank" rel="noopener noreferrer">
+                                    Ver
+                                    </a>
+                                </div>
+                            </li>
+                        )  
                     })
                 }
+                
             </ul>
             <div className="mt-8 text-center">
                 <a href="https://github.com/clunkylion/" className="btn" target="_blank" rel="noopener noreferrer"> 
