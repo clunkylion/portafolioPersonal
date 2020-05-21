@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default (props)=>{
-    let nombre = props.repo.name;
+    var nombre = props.repo.name;
     return (
         <li className="flex items-center">
             <div className="w-9/12 overflow-x-hidden my-4">
