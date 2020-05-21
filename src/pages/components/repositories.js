@@ -27,6 +27,7 @@ export default () => {
         }
         fetchRepos();
     },[]);
+    
     return (
         <div className="max-w-4xl mx-auto mt-12">
             <header className="text-center">

@@ -17,8 +17,8 @@ export default (props) =>{
             <div className="max-w-4xl mx-auto overflow-x-scroll pb-3">
                 <div className="flex mt-8"> 
                     {
-                        pageData.items.map((item,index)=>(
-                            <div className="shadow p-8 bg-white mr-4 rounded flex-shrink-0 contact_card">
+                        pageData.items.map((item)=>(
+                            <div className="shadow p-8 bg-white mr-4 rounded flex-shrink-0 contact_card" key={item.id}>
                                 <div className="flex flex-col">
                                     <h2 className="font-bold text-blue-700 text-xl">{item.name}</h2>
                                     {

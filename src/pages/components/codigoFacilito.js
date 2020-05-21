@@ -19,9 +19,8 @@ export default () => {
         }
     }
     `);
-    const titles = data.codigoFacilitoJson.data.finished_courses.slice(0,10);
-    console.log(data);
-    
+    const titles = data.codigoFacilitoJson.data.finished_courses;
+    //console.log(data);
     return (
         <section>
             <div className="mt-24">

@@ -317,6 +317,10 @@
       {
         "title": "Curso de Fundamentos de React",
         "url": "http://codigofacilito.com/courses/react-intro-gratis"
+      },
+      {
+        "title":"Crea un sitio personal con Gatsby",
+        "url":"http://codigofacilito.com/courses/sitio-persional-gatsby"
       }
     ]
   },

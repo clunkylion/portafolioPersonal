@@ -21,10 +21,10 @@ export default (props)=>{
             <h2 className="text-3xl font-bold text-center my-6 text-blue-700">¡Conoceme más!</h2>
             <nav className="flex justify-center mt-8">
                 {
-                    data.allSkillsJson.edges.map((element, index)=> {
+                    data.allSkillsJson.edges.map((element)=> {
                         const {node} = element;
                         return (
-                            <article className="flex-1 bg-white shadow m-4 max-w-sm p-4">
+                            <article className="flex-1 bg-white shadow m-4 max-w-sm p-4" key={node.id}>
                                 <header>
                                     <p className="font-bold leading-loose text-blue-700">{node.title}</p>
                                     <div className="mt-5">
