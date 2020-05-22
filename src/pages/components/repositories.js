@@ -1,4 +1,6 @@
 import React, {useEffect, useState} from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 //import Repo from './repo.js';
 
 
@@ -12,6 +14,8 @@ export default () => {
     useEffect(() => {
         const data = sessionStorage.getItem("repos");
         let myRepos
+        AOS.init({duration: 2000});
+        
         if (data) {
             myRepos = JSON.parse(data);
             setReposCount(myRepos.length);
@@ -29,7 +33,7 @@ export default () => {
     },[]);
 
     return (
-        <div className="max-w-4xl mx-auto mt-12">
+        <div className="max-w-4xl mx-auto mt-12" data-aos="fade-up">
             <header className="text-center">
                 <h2 className="text-3xl font-bold text-blue-700 truncate">Mi Trabajo en GitHub!</h2>
                 <p className="text-green-600">Colaboración y contribución de Código</p>

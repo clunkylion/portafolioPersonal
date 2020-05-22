@@ -7,18 +7,18 @@ export default (props) =>{
         <div>
             <header className="py-12 border-blue-700 border-solid border-t-8">
                 <div className="max-w-4xl mx-auto">
-                    <Link className="uppercase underline text-blue-800" to="/">Regresar al Inicio</Link>
-                    <h2 className="capitalize text-6xl font-bold text-blue-700">
+                    <Link className="uppercase underline text-blue-700 mx-auto px-4" to="/">Regresar al Inicio</Link>
+                    <h2 className="banner1 mx-auto px-4 pt-8">
                         {pageData.title}
                     </h2>
-                    <p className="text-2xl text-green-600">{pageData.descripcion}</p>
+                    <p className="banner2 mx-auto px-4">{pageData.descripcion}</p>
                 </div>
             </header>
             <div className="max-w-4xl mx-auto overflow-x-scroll pb-3">
-                <div className="flex mt-8"> 
+                <div className="flex mt-7"> 
                     {
                         pageData.items.map((item)=>(
-                            <div className="shadow p-8 bg-white mr-4 rounded flex-shrink-0 contact_card" key={item.id}>
+                            <div className="shadow p-8 bg-white mr-4 rounded flex-shrink-0 contact_card px-4 ml-5" key={item.id}>
                                 <div className="flex flex-col">
                                     <h2 className="font-bold text-blue-700 text-xl">{item.name}</h2>
                                     {
