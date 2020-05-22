@@ -5,16 +5,37 @@
 @tailwind utilities;
 
 .btn{
-    @apply bg-green-600 text-white font-bold rounded py-2 px-4 border-b-4;
+    @apply bg-green-600 text-white font-bold rounded py-2 px-4 border-b-4 mt-4 inline-block;
 }
-
-
+.emoji{
+    height: 300px;
+}
+.banner1{
+    @apply font-bold text-blue-700 text-5xl;
+}
+.banner2{
+    @apply text-3xl text-green-600 font-light;
+}
+.banner3{
+    @apply text-3xl text-green-600 font-light my-3 text-justify;
+}
+.banner4{
+    @apply text-3xl text-green-600 font-bold;
+}
+.codigoF {
+   @apply text-3xl font-bold text-center text-blue-700;
+}
+.navigationCard{
+    @apply flex justify-center mt-8 
+}
+.descripcionNav{
+    @apply font-light text-green-700;
+}
 .repos-list{
     columns: 3;
     -moz-columns: 3;
     column-rule: 1px solid;
     @apply p-4;
-
 }
 .repos-list li{
     break-inside: avoid-column;
@@ -30,4 +51,74 @@ body{
 .contact_card{
     width: 300px;
     height: 250px;
+}
+
+@media (max-width: 640px) { 
+    /* ... */ 
+    .emoji{
+        height: 150px;
+        padding-right: 5px;
+    }
+    .repos-list{
+        columns: 2;
+        -moz-columns: 2;
+        @apply p-3;
+    }
+    .banner1{
+        @apply font-bold text-blue-700 text-4xl;
+    }
+
+    .banner2{
+        @apply text-2xl text-green-600 font-light;
+    }
+
+    .banner3{
+        @apply text-2xl text-green-600 font-light;
+    }
+
+    .banner4{
+        @apply text-2xl text-green-600 font-bold;
+    }
+
+    .codigoF {
+        @apply text-2xl font-bold text-center text-blue-700;
+    }
+    
+    .navigationCard{
+        @apply flex flex-col justify-center mt-8;
+    }
+}
+@media (max-width: 748px) { 
+    .emoji{
+        height: 150px;
+        padding-right: 5px;
+    }
+    .repos-list{
+        columns: 2;
+        -moz-columns: 2;
+        @apply p-3;
+    }
+    .banner1{
+        @apply font-bold text-blue-700 text-4xl;
+    }
+
+    .banner2{
+        @apply text-2xl text-green-600 font-light;
+    }
+
+    .banner3{
+        @apply text-2xl text-green-600 font-light;
+    }
+
+    .banner4{
+        @apply text-2xl text-green-600 font-bold;
+    }
+
+    .codigoF {
+        @apply text-2xl font-bold text-center text-blue-700;
+    }
+
+    .navigationCard{
+        @apply flex flex-col justify-center mt-8 
+    }
 }

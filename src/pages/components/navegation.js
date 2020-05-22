@@ -19,7 +19,7 @@ export default (props)=>{
     return(
         <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-center my-6 text-blue-700">¡Conoceme más!</h2>
-            <nav className="flex justify-center mt-8">
+            <nav className="navigationCard">
                 {
                     data.allSkillsJson.edges.map((element)=> {
                         const {node} = element;
@@ -28,10 +28,10 @@ export default (props)=>{
                                 <header>
                                     <p className="font-bold leading-loose text-blue-700">{node.title}</p>
                                     <div className="mt-5">
-                                        <p className="font-light text-green-700">
+                                        <p className="descripcionNav">
                                             {node.descripcion}
                                         </p>
-                                        <Link to={`/${node.slug}`} className="btn inline-block mt-4">¡Ver Más!</Link>
+                                        <Link to={`/${node.slug}`} className="btn">¡Ver Más!</Link>
                                     </div>
                                 </header>
                             </article>

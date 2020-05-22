@@ -6,8 +6,8 @@ export default ()=> (
             <div className="flex justify-center items-center">
                 <div className="flex-1">
                     <h1 className="font-bold text-blue-700 text-4xl text-center my-2">¡Sobre mí!</h1>
-                    <p className="text-3xl text-green-600 font-light my-3 text-justify">Soy Desarrollador de Software FullStack, tengo 21 años, estudio Informática en la "Universidad Tecnológica de Chile", me encanta la tecnologia, el futbol... y por supuesto la programación, mi principal objetivo es poder satisfacer la necesidades técnicas y comerciales de mis clientes.</p>
-                    <p className="text-3xl text-green-600 font-bold">¡Hoy en día todo se puede programar, por eso si tienes una idea, estás en el lugar correcto!</p>
+                    <p className="banner3">Soy Desarrollador de Software FullStack, tengo 21 años, estudio Informática en la "Universidad Tecnológica de Chile", me encanta la tecnologia, el futbol... y por supuesto la programación, mi principal objetivo es poder satisfacer la necesidades técnicas y comerciales de mis clientes.</p>
+                    <p className="banner4">¡Hoy en día todo se puede programar, por eso si tienes una idea, estás en el lugar correcto!</p>
                 </div>
             </div>
             <div className="flex justify-center items-center">

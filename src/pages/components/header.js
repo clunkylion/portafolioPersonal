@@ -12,10 +12,10 @@ export default () => (
             <div className="flex justify-center items-center">
 
                 <div className="flex-1">
-                <h1 className="font-bold text-blue-700 text-5xl"> ¡Hola! Soy José</h1>
-                <p className="text-3xl text-green-600 font-light">Desarrollador de Software</p>
+                <h1 className="banner1"> ¡Hola! Soy José</h1>
+                <p className="banner2">Desarrollador de Software</p>
                 </div>
-                <img src={ilustracion} alt="Programador" style={{height: "300px"}} />
+                <img src={ilustracion} alt="Programador" className="emoji"/>
             </div>
             
             <div>

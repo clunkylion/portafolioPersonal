@@ -23,9 +23,9 @@ export default () => {
     //console.log(data);
     return (
         <section>
-            <div className="mt-24">
-            <h2 className="text-3xl font-bold text-center text-blue-700">Algunos de mis Cursos...</h2>
-                <div className="max-w-4xl mx-auto overflow-x-scroll pb-3">
+            <div className="my-16">
+            <h2 className="codigoF">Algunos de mis Cursos...</h2>
+                <div className="max-w-4xl mx-auto overflow-x-scroll pb-3 px-3">
                     <div className="flex mt-8"> 
                         {
                             titles.map(certificate =>(
