@@ -7,8 +7,6 @@ export default () => {
         console.log(data)
         e.target.reset();
     }
-    
-
     return (
         <Fragment>
             <form
