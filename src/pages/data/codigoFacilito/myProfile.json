@@ -12,6 +12,11 @@
         "score": 10,
         "code": "99435fec-d91d-4ab5-b0c1-8301aea6bffa",
         "title": "Curso Profesional de JavaScript"
+      },
+      {
+        "score":10,
+        "code":"058d4d87-5017-49ce-976f-5319e7a1f3ba",
+        "title":"Curso Profesional de React"
       }
     ],
     "articles": [],
@@ -293,6 +298,9 @@
       {
         "title": "Curso Profesional de Git",
         "url": "http://codigofacilito.com/courses/git-profesional"
+      },
+      {"title":"Curso Profesional de React",
+      "url":"http://codigofacilito.com/courses/react-profesional"
       },
       {
         "title": "Curso Profesional de Vue",

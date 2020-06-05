@@ -2,7 +2,7 @@ import React from'react';
 //{Fragment, useState}
 export default () =>{
     return (
-        <form className="mt-16 text-center" method="POST" id="contactForm" data-netlify="true">
+        <form className="mt-16 text-center" method="POST" id="contactForm" name="contactForm" data-netlify="true" netlify-honeypot="bot-field">
             <label className="block text-lg font-bold text-blue-700 mb-2" htmlFor="contact-content">Cuentame de esa idea que quieres hacer realidad: 
             </label>
             <p id="status"></p>
