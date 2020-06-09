@@ -25,6 +25,7 @@ export default () => {
         async function fetchRepos(){
             const response = await fetch("https://api.github.com/users/clunkylion/repos");
             myRepos = await response.json();
+            myRepos = myRepos.slice(1,13);
             setReposCount(myRepos.length);
             sessionStorage.setItem("repos", JSON.stringify(myRepos));
             setRepos(myRepos);
