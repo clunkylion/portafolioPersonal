@@ -1,4 +1,4 @@
-import React, {Fragment} from "react"
+import React, {Fragment, useState} from "react"
 import { useForm } from "react-hook-form"
 import axios from "axios";
 //{Fragment, useState}
@@ -7,10 +7,12 @@ export default () => {
     var actual = hoy.getDay() + "-" + (hoy.getMonth()+1) +"-"+ hoy.getFullYear();
     const { register, handleSubmit, errors } = useForm()
     //on submint envía en formulario.
-
-    function sentData(){
+    const [name, setName] = useState('');
+    const [mail, setMail] = useState('');
+    const [contactContent, setContactContent] = useState('');
+    async function sentData(){
         console.log('enviando datos a servidor');
-        setTimeout(()=>{
+        const saludoApi = ()=>{
             axios.get('https://josecortes-api.herokuapp.com/home')
             .then((response)=>{
                 console.log(response);
@@ -19,12 +21,13 @@ export default () => {
                 // handle error
                 console.log(error);
             })
-        }, 2000)
-        axios.post('https://josecortes-api.herokuapp.com/add', {
-        nombreCliente: "haelloWorld",
-        mailCliente: "tester@tester.com",
+        }
+        saludoApi();
+        await axios.post('https://josecortes-api.herokuapp.com/add', {
+        nombreCliente: name,
+        mailCliente: mail,
         fecha: actual,
-        idea: "crear app de programacions"
+        idea: contactContent
         })
         .then(response => {
             console.log(response);
@@ -36,6 +39,8 @@ export default () => {
         })
     }
     
+
+
     const onSubmit = (data, e) =>{
         console.log(data)
         sentData();
@@ -77,6 +82,7 @@ export default () => {
                             message: "Ingresa carácteres validos"
                         }
                     })}
+                    onChange={(e)=> setName(e.target.value)}
                     />
                 </div>
                 <div className="flex shadow rounded bg-white border">
@@ -95,7 +101,9 @@ export default () => {
                             value: 5, 
                             message: 'Mínimo 5 carácteres'
                             }
-                    })}/>
+                    })}
+                    onChange={(e)=> setMail(e.target.value)}
+                    />
                 </div>
                 <div className="flex shadow rounded bg-white border p-2">
                     <textarea
@@ -117,9 +125,10 @@ export default () => {
                             message: 'Mínimo 20 carácteres'
                             }
                     })}
+                    onChange={(e)=> setContactContent(e.target.value)}
                     ></textarea>
                 </div>
-                <button className="btnFormContact" id="formBtn">
+                <button className="btnFormContact" id="formBtn" type="submit">
                     Enviar
                 </button>
             </form>
