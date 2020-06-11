@@ -1,10 +1,44 @@
 import React, {Fragment} from "react"
 import { useForm } from "react-hook-form"
+import axios from "axios";
 //{Fragment, useState}
 export default () => {
+    var hoy = new Date();
+    var actual = hoy.getDay() + "-" + (hoy.getMonth()+1) +"-"+ hoy.getFullYear();
     const { register, handleSubmit, errors } = useForm()
+    //on submint envía en formulario.
+
+    function sentData(){
+        console.log('enviando datos a servidor');
+        setTimeout(()=>{
+            axios.get('https://josecortes-api.herokuapp.com/home')
+            .then((response)=>{
+                console.log(response);
+            })
+            .catch((error)=> {
+                // handle error
+                console.log(error);
+            })
+        }, 2000)
+        axios.post('https://josecortes-api.herokuapp.com/add', {
+        nombreCliente: "haelloWorld",
+        mailCliente: "tester@tester.com",
+        fecha: actual,
+        idea: "crear app de programacions"
+        })
+        .then(response => {
+            console.log(response);
+            
+        })
+        .catch(err =>{
+            console.log(err);
+            
+        })
+    }
+    
     const onSubmit = (data, e) =>{
         console.log(data)
+        sentData();
         e.target.reset();
     }
     return (
