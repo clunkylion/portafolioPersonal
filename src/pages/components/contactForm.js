@@ -1,6 +1,7 @@
 import React, {Fragment, useState} from "react"
 import { useForm } from "react-hook-form"
 import axios from "axios";
+import swal from 'sweetalert'
 //{Fragment, useState}
 export default () => {
     var hoy = new Date();
@@ -12,7 +13,7 @@ export default () => {
     const [contactContent, setContactContent] = useState('');
     async function sentData(){
         console.log('enviando datos a servidor');
-        const saludoApi = ()=>{
+        /*const saludoApi = ()=>{
             axios.get('https://josecortes-api.herokuapp.com/home')
             .then((response)=>{
                 console.log(response);
@@ -21,9 +22,9 @@ export default () => {
                 // handle error
                 console.log(error);
             })
-        }
-        saludoApi();
-        await axios.post('https://josecortes-api.herokuapp.com/add', {
+        }*/
+        //saludoApi();
+        await axios.post('https://portafolio-mongo-api.herokuapp.com/contacto', {
         nombreCliente: name,
         mailCliente: mail,
         fecha: actual,
@@ -31,6 +32,17 @@ export default () => {
         })
         .then(response => {
             console.log(response);
+            if (response.status === 200) {
+                swal({
+                    title: "Gracias por enviar su solicitud",
+                    text: "Nos contactaremos con ud.",
+                    icon: "success",
+                    timer: 1300,
+                    button : false,
+                    });
+                console.log('Datos enviados sin probleas');
+                
+            }
             
         })
         .catch(err =>{
@@ -94,8 +106,8 @@ export default () => {
                             message: 'El mail es requerido'
                             }, 
                         maxLength: {
-                            value: 25, 
-                            message: 'No más de 25 carácteres!'
+                            value: 50, 
+                            message: 'No más de 50 carácteres!'
                             },
                         minLength: {
                             value: 5, 
