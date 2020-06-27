@@ -12,21 +12,10 @@ export default () => {
     const [mail, setMail] = useState('');
     const [contactContent, setContactContent] = useState('');
     async function sentData(){
-        console.log('enviando datos a servidor');
-        /*const saludoApi = ()=>{
-            axios.get('https://josecortes-api.herokuapp.com/home')
-            .then((response)=>{
-                console.log(response);
-            })
-            .catch((error)=> {
-                // handle error
-                console.log(error);
-            })
-        }*/
-        //saludoApi();
+        console.log('Enviando datos a servidor');
         await axios.post('https://portafolio-mongo-api.herokuapp.com/contacto', {
-        nombreCliente: name,
-        mailCliente: mail,
+        nombre: name,
+        mail: mail,
         fecha: actual,
         idea: contactContent
         })
@@ -35,29 +24,25 @@ export default () => {
             if (response.status === 200) {
                 swal({
                     title: "Gracias por enviar su solicitud",
-                    text: "Nos contactaremos con ud.",
+                    text: "Nos pondremos en contacto.",
                     icon: "success",
                     timer: 1300,
                     button : false,
                     });
-                console.log('Datos enviados sin probleas');
-                
+                console.log('Datos enviados correctamente');
             }
-            
         })
         .catch(err =>{
             console.log(err);
             
         })
     }
-    
-
-
     const onSubmit = (data, e) =>{
         console.log(data)
         sentData();
         e.target.reset();
     }
+
     return (
         <Fragment>
             <form
