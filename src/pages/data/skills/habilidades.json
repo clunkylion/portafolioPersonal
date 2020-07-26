@@ -4,39 +4,43 @@
     "descripcion": "Poseo experiencia utilizando las siguientes tecnologías..",
     "items": [
         {
-            "name": "Php",
+            "name": "PHP",
             "desc": "Uno de mis lenguajes favoritos he realizado proyectos de todo tipo con está valiosa herramienta."
         },
         {
-            "name": "Java",
+            "name": "JAVA",
             "desc": "Mi Primer lenguaje de programación, ideal para aplicaciones de escritorio y tambien para aplicaciones moviles."
         },
         {
-            "name": "Javascript",
-            "desc": "Sin dudas un lenguaje maravilloso con el que se pueden hacer muchas cosas...."
+            "name": "JAVASCRIPT",
+            "desc": "Actualmente mi lenguaje favorito, justo con otras herramientas se pueden crear cosas geniales"
         },
         {
-            "name": "Vue",
-            "desc": "Excelente framework, ideal para construir interfaces de usuario y aplicaciones de una sola página y modernas."
+            "name": "NODE",
+            "desc": "Javascript en el backend, que mejor!!"
         },
         {
-            "name": "Laravel",
-            "desc": "Maravillosa herramienta para aprovechar al maximo PHP, he creado tiendas online con está herramienta."
+            "name": "REACT",
+            "desc": "Mi libreria favorita en Javascript..."
         },
         {
-            "name": "Bases de Datos (Mysql & Oracle)",
+            "name": "VUE",
+            "desc": "Excelente framework, ideal para construir interfaces de usuario y aplicaciones modernas."
+        },
+        {
+            "name": "LARAVEL",
+            "desc": "Framewokr MVC para poder aprovechar al maximo PHP"
+        },
+        {
+            "name": "BASES DE DATOS(Mysql - Oracle - MongoDB)",
             "desc": ""
         },
         {
-            "name": "Git",
-            "desc": "Una herramienta para viajar en el tiempo con los proyectos..."
+            "name": "GIT",
+            "desc": ""
         },
         {
-            "name": "C#",
-            "desc": "Un lenguaje muy similar a Java, poseo experiencia usando ASP & .NET"
-        },
-        {
-            "name": "Dart & Flutter",
+            "name": "DART & FLUTTER",
             "desc": "Ideal para realizar aplicaciones moviles multiplatoforma, modernas y elegantes."
         }
     ]

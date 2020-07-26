@@ -111,7 +111,7 @@ export default () => {
                     ref={register({
                         required: {
                             value: true, 
-                            message: 'El campo es requerido'
+                            message: 'El campo idea es requerido'
                             }, 
                         maxLength: {
                             value: 200, 

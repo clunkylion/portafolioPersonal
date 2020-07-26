@@ -284,10 +284,6 @@
     ],
     "finished_courses": [
       {
-        "title": "Desarrrolla una tienda en línea con Laravel y Vue",
-        "url": "http://codigofacilito.com/courses/laravel-tienda-en-linea"
-      },
-      {
         "title": "Curso Profesional de Laravel",
         "url": "http://codigofacilito.com/courses/laravel-profesional"
       },
@@ -302,9 +298,16 @@
       {"title":"Curso Profesional de React",
       "url":"http://codigofacilito.com/courses/react-profesional"
       },
+      {"title":"Curso de Frontend Developer",
+      "url":"https://platzi.com/clases/frontend-developer/"
+      },
       {
         "title": "Curso Profesional de Vue",
         "url": "http://codigofacilito.com/courses/vue"
+      },
+      {
+        "title": "Desarrrolla una tienda en línea con Laravel y Vue",
+        "url": "http://codigofacilito.com/courses/laravel-tienda-en-linea"
       },
       {
         "title": "Taller para consultar datos de una API con Vue",
