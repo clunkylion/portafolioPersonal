@@ -5,31 +5,27 @@
     "items": [
         {
             "name": "PHP",
-            "desc": "Uno de mis lenguajes favoritos he realizado proyectos de todo tipo con está valiosa herramienta."
-        },
-        {
-            "name": "JAVA",
-            "desc": "Mi Primer lenguaje de programación, ideal para aplicaciones de escritorio y tambien para aplicaciones moviles."
+            "desc": ""
         },
         {
             "name": "JAVASCRIPT",
-            "desc": "Actualmente mi lenguaje favorito, justo con otras herramientas se pueden crear cosas geniales"
+            "desc": ""
         },
         {
-            "name": "NODE",
-            "desc": "Javascript en el backend, que mejor!!"
+            "name": "NODEJS",
+            "desc": "API-REST - JWT"
         },
         {
             "name": "REACT",
-            "desc": "Mi libreria favorita en Javascript..."
+            "desc": "REACT-ROUTER - REDUX - GATSBY - NEXTJS"
         },
         {
             "name": "VUE",
-            "desc": "Excelente framework, ideal para construir interfaces de usuario y aplicaciones modernas."
+            "desc": ""
         },
         {
             "name": "LARAVEL",
-            "desc": "Framewokr MVC para poder aprovechar al maximo PHP"
+            "desc": "API-REST - PASSPORT - DESARROLLO WEB EN GENERAL"
         },
         {
             "name": "BASES DE DATOS(Mysql - Oracle - MongoDB)",
@@ -40,8 +36,8 @@
             "desc": ""
         },
         {
-            "name": "DART & FLUTTER",
-            "desc": "Ideal para realizar aplicaciones moviles multiplatoforma, modernas y elegantes."
+            "name": "REACT NATIVE",
+            "desc": "DESARROLLO DE APLICACIONES MOVILES"
         }
     ]
 }
