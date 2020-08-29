@@ -14,9 +14,9 @@
         "title": "Curso Profesional de JavaScript"
       },
       {
-        "score":10,
-        "code":"058d4d87-5017-49ce-976f-5319e7a1f3ba",
-        "title":"Curso Profesional de React"
+        "score": 10,
+        "code": "058d4d87-5017-49ce-976f-5319e7a1f3ba",
+        "title": "Curso Profesional de React"
       }
     ],
     "articles": [],
@@ -288,50 +288,52 @@
         "url": "http://codigofacilito.com/courses/laravel-profesional"
       },
       {
-        "title": "Curso Profesional de JavaScript",
+        "title": "Curso Profesional de Javascript - Platzi",
+        "url": "https://platzi.com/@cote99salamanca/curso/1642-javascript-profesional/diploma/detalle/"
+      },
+      {
+        "title": "Curso Profesional de React",
+        "url": "http://codigofacilito.com/courses/react-profesional"
+      },
+      {
+        "title": "Curso Profesional de JavaScript - CodigoFacilito",
         "url": "http://codigofacilito.com/courses/javascript-profesional"
+      },
+      {
+        "title": "Fundamentos de NodeJS",
+        "url": "https://platzi.com/@cote99salamanca/curso/1759-fundamentos-node/diploma/detalle/"
       },
       {
         "title": "Curso Profesional de Git",
         "url": "http://codigofacilito.com/courses/git-profesional"
       },
-      {"title":"Curso Profesional de React",
-      "url":"http://codigofacilito.com/courses/react-profesional"
+      {
+        "title": "Curso de Frontend Developer",
+        "url": "https://platzi.com/@cote99salamanca/curso/1640-frontend-developer/diploma/detalle/"
       },
-      {"title":"Curso de Frontend Developer",
-      "url":"https://platzi.com/clases/frontend-developer/"
+      {
+        "title": "Curso de React Router y Redux",
+        "url": "https://platzi.com/@cote99salamanca/curso/1652-react-router-redux/diploma/detalle/"
       },
       {
         "title": "Curso Profesional de Vue",
         "url": "http://codigofacilito.com/courses/vue"
       },
       {
-        "title": "Desarrrolla una tienda en línea con Laravel y Vue",
+        "title": "Ecommerce Laravel y Vue",
         "url": "http://codigofacilito.com/courses/laravel-tienda-en-linea"
       },
       {
-        "title": "Taller para consultar datos de una API con Vue",
-        "url": "http://codigofacilito.com/courses/rest-api-vue"
-      },
-      {
-        "title": "Creación de un proyecto con Vue",
-        "url": "http://codigofacilito.com/courses/vue-proyecto"
-      },
-      {
-        "title": "Taller de Vue con Firebase",
+        "title": "Vue con Firebase",
         "url": "http://codigofacilito.com/courses/vue-firebase"
       },
       {
-        "title": "Taller de Apps Universales con Nuxt y Vue",
+        "title": "Apps Universales con Nuxt y Vue",
         "url": "http://codigofacilito.com/courses/taller-nuxt-vue"
       },
       {
         "title": "Curso de Fundamentos de React",
         "url": "http://codigofacilito.com/courses/react-intro-gratis"
-      },
-      {
-        "title":"Crea un sitio personal con Gatsby",
-        "url":"http://codigofacilito.com/courses/sitio-persional-gatsby"
       }
     ]
   },
