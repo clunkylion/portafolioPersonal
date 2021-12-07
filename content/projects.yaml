@@ -21,7 +21,7 @@
   image: images/criptoTracker.png
 
 - name: Portafolio
-  url: https://github.com/clunkylion/react-hooks-store
+  url: https://github.com/clunkylion/portafolioPersonal
   description: Portafolio de contacto
   status: Finalizado
   tags:
