@@ -1,7 +1,7 @@
 {
-  "name": "Portafolio personal",
+  "name": "PersonalPortfolio",
   "description": "Portafolio Personal José Cortés<",
-  "version": "2.0.1",
+  "version": "0.2.0",
   "main": "index.js",
   "author": "cote99salamanca@gmail.com",
   "dependencies": {
@@ -40,9 +40,6 @@
     "react",
     "website"
   ],
-  "engines": {
-    "node": ">=12.0.0"
-  },
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -51,8 +48,11 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
-  "repository": "https://github.com/wkocjan/gatsby-theme-intro",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
   "bugs": {
-    "url": "https://github.com/wkocjan/gatsby-theme-intro/issues"
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
