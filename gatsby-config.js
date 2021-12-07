@@ -1,21 +1,33 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
-
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    description: "Portafolio José Cortés",
+    locale: "en",
+    showThemeLogo: false,
+    title: "José Cortés",
+    formspreeEndpoint: "https://formspree.io/f/{your-id}",
+  },
   plugins: [
-    'gatsby-plugin-postcss',
-    'gatsby-transformer-json',
-    'gatsby-plugin-react-helmet',
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: `gatsby-plugin-postcss`,
       options: {
-        name: 'data',
-        path: `${__dirname}/src/pages/data`
-      }
-    }
+        postCssPlugins: [
+          require("tailwindcss")(require("./tailwind.config")("dark-blue")),
+          require("postcss-input-range"),
+          require("autoprefixer"),
+        ],
+      },
+    },
+    `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-yaml`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: "./content",
+      },
+    },
+    `gatsby-plugin-react-svg`,
+    `gatsby-plugin-image`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
   ],
 }
