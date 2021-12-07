@@ -1,0 +1,87 @@
+- name: Single Page Aplication - Proyecto BusCheck
+  url: https://github.com/clunkylion/buscheck.github.io 
+  description: Frontend Sistema de gestión y administración para empresas de transporte. ( Proyecto de Título )
+  status: En Progreso - Migrando stack
+  tags:
+    - JavaScript
+    - CSS
+    - HTMl
+  icon: github
+  prodUrl: https://cocky-bhabha-e2e8c0.netlify.app/
+  image: images/BusCheck.png
+
+- name: App movil - CriptoTracker
+  url: https://github.com/clunkylion/cryptoTracker
+  description: Aplicación Movil para hacer seguimiento a los valores de criptoMonedas
+  status: Finalizada
+  tags:
+    - JavaScript
+    - ReactNative
+  icon: github
+  image: images/criptoTracker.png
+
+- name: Portafolio
+  url: https://github.com/clunkylion/react-hooks-store
+  description: Portafolio de contacto
+  status: Finalizado
+  tags:
+    - JavaScript
+    - React 
+    - Gatsby
+    - Tailwind
+  icon: github
+  prodUrl: https://josecortesm.com
+  image: images/portafolio.png
+
+- name: Tienda & Carrito de Compras 
+  url: https://github.com/clunkylion/react-hooks-store
+  description: Tienda online basica con carrito de compras implementando react y react hooks
+  status: Finalizada
+  tags:
+    - JavaScript
+    - React (Hooks - Context - Reduce)
+  icon: github
+  image: images/react-hooks-ecommerce.png
+
+- name: API REST BUSCHECK - Proyecto BusCheck
+  url: https://github.com/clunkylion/api-buscheck
+  description: Backend Sistema de gestión y administración para empresas de transporte. ( Proyecto de Título )
+  status: Finalizada
+  tags:
+    - JavaScript
+    - Node
+    - Express 
+    - Mysql - Sequelize
+  icon: github
+
+- name: API REST DESAFIO PROGRAMACIÓN
+  url: https://github.com/clunkylion/backend_node_evaluation
+  description: Api Rest para cumplir un desafio de programación de una escuela de https://platzi.com
+  status: Finalizada
+  tags:
+    - JavaScript
+    - Node
+    - Express 
+    - MongoDB
+  icon: github
+
+- name: App movil - MiCuardernoApp
+  url: https://github.com/clunkylion/miListaApp
+  description: Aplicación Movil para administrar actividades y tareas en cuardernos virtuales
+  status: En Desarrollo
+  tags:
+    - JavaScript
+    - ReactNative
+    - Expo
+  icon: github
+
+- name: Libreria Random-code-generator
+  url: https://github.com/clunkylion/random-code-generator
+  description: Libreria para generar codigos dínamicos
+  status: Finalizada
+  tags:
+    - Typescript
+    - Node
+  icon: github
+  prodUrl: https://www.npmjs.com/package/@clunkylion/random-code-generator
+

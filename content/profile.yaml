@@ -1,0 +1,39 @@
+- profile:
+  initials: JC
+  name: José Cortés
+  profession: Software Developer
+  image: images/profile.jpeg
+  location: Salamanca, Chile
+  relocation: false
+  company: AccionTip
+  for_hire: false
+  focus: 'React Native - Python - perfeccionándome en JS/TS (Estructuras de Datos, Arquitectura)'
+  focus_url: https://gatsbyjs.org
+  about: |
+    Gran interés y esfuerzo en cultivar cualidades profesionales esenciales para el trabajo como: responsabilidad, compromiso,
+    proactividad, respeto y liderazgo.
+
+    En constante aprendizaje para poder cumplir las necesidades del mercado y la empresa.
+
+    Creo absolutamente en el trabajo en equipo para la consecución de objetivos, potenciando y maximizando los aportes de cada miembro del equipo
+
+    Entusiasta en deportes como: Futbol, Ciclismo y trekking
+
+  skills:
+    - JavaScript - Typescript
+    - React (Hooks - Context)
+    - Nodejs - Express 
+  tools:
+    - Git
+    - Node
+    - React
+    - Express
+    - Bootstrap
+    - Azure DevOps
+    
+    
+  budget:
+    currency: $
+    min: 5
+    max: 30
+    default: 10
