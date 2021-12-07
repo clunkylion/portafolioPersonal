@@ -12,6 +12,10 @@
     height: 48px;
     @apply bg-green-600 text-white font-bold rounded py-2 px-4 border-b-4 mt-2 inline-block text-xl;
 }
+/*.navBarLogo{
+    width: 300px;
+    height: 50px;
+}*/
 .emoji{
     height: 300px;
 }

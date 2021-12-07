@@ -3,6 +3,7 @@ import Header from "../pages/components/header.js"
 import Repos from "../pages/components/repositories.js"
 import CodigoFacilito from "../pages/components/codigoFacilito.js"
 import AboutMe from "../pages/components/aboutMe.js"
+import Navbar from "../pages/components/navbar"
 import { Helmet } from "react-helmet"
 import logo from "../pages/img/logo2.ico"
 
