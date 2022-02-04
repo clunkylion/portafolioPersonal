@@ -5,7 +5,7 @@
   image: images/profile.jpeg
   location: Salamanca, Chile
   relocation: false
-  company: AccionTip
+  company: Legalbot
   for_hire: false
   focus: 'React Native - Python - perfeccionándome en JS/TS (Estructuras de Datos, Arquitectura)'
   focus_url: https://gatsbyjs.org
@@ -22,16 +22,16 @@
   skills:
     - JavaScript - Typescript
     - React (Hooks - Context)
-    - Nodejs - Express 
+    - Nodejs - Express
   tools:
     - Git
     - Node
     - React
     - Express
+    - Angular
     - Bootstrap
-    - Azure DevOps
-    
-    
+
+
   budget:
     currency: $
     min: 5
