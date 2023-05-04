@@ -5,9 +5,9 @@
   image: images/profile.jpeg
   location: Salamanca, Chile
   relocation: false
-  company: Legalbot
+  company: TACTECH
   for_hire: false
-  focus: 'React Native - Python - perfeccionándome en JS/TS (Estructuras de Datos, Arquitectura)'
+  focus: 'React - Node - React Native - perfeccionándome en JS/TS (Estructuras de Datos, Arquitectura)'
   focus_url: https://gatsbyjs.org
   about: |
     Gran interés y esfuerzo en cultivar cualidades profesionales esenciales para el trabajo como: responsabilidad, compromiso,
@@ -17,19 +17,21 @@
 
     Creo absolutamente en el trabajo en equipo para la consecución de objetivos, potenciando y maximizando los aportes de cada miembro del equipo
 
-    Entusiasta en deportes como: Futbol, Ciclismo y trekking
+    Entusiasta en deportes como: Futbol, Ciclismo(Ruta), trekking y running (objetivo 50km semanal)
 
   skills:
     - JavaScript - Typescript
     - React (Hooks - Context)
-    - Nodejs - Express
+    - Nodejs - Express - Nest
   tools:
     - Git
     - Node
     - React
+    - Next
     - Express
     - Angular
-    - Bootstrap
+    - Nest
+    - Graphql
 
 
   budget:
